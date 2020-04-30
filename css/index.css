@@ -1,0 +1,15 @@
+.bar {
+  list-style: none;
+  background: #EBEBEB;
+}
+
+.item {
+  display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #9EB1CD;
+}
