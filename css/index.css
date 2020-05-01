@@ -2,31 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bar-wrapper {
-    height: 6vh;
+    min-height: 6vh;
     width: 100%;
 }
 
 .bar {
     height: 100%;
+    background-color: #282c34;
     display: flex;
     align-items: center;
     flex-direction: column;
     list-style: none;
+    padding: 0 20px;
 }
 
 .item {
-  display: inline-block;
+  display: flex;
   padding: 8px;
+  color: white;
+  font-size: 100%;
+  align-items: center;
+}
+
+.item-link {
+    text-decoration: none;
+    color: rgb(223, 228, 236);
+    font-size: 80%;
+    padding: 0 8px;
 }
 
 .icon {
   display: inline-block;
-  width: 16px;
+  text-align: center;
   height: 16px;
-  background: #9EB1CD;
+  width: 16px;
 }
 
 @media (min-width: 768px) {
