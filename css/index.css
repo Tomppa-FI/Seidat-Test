@@ -28,6 +28,11 @@
   align-items: center;
 }
 
+.item:hover {
+    background-color: #52565f;
+    transition: all 0.3s linear;
+}
+
 .item-link {
     text-decoration: none;
     color: rgb(223, 228, 236);
