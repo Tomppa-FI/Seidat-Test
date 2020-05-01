@@ -19,7 +19,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
             if (clientCoordinate < bookmarkCoordinate) {
                 if (typeof lowestFlexOrder === "undefined" || lowestFlexOrder > parseInt(bookmark.style.order)) {
                     lowestFlexOrder = parseInt(bookmark.style.order);
-                    console.log(lowestFlexOrder);
                 }
                 bookmark.style.order = parseInt(bookmark.style.order) + 1;
                 //Allow for forward movement.
