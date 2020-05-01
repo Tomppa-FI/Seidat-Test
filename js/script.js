@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             //Determine which coordinate to check against depending on flex-direction.
             //Additionally, slightly increase X/Y of bookmark, so can be repositioned easier.
             const {x, y, width, height} = bookmark.getBoundingClientRect();
-            const [clientCoordinate, bookmarkCoordinate] = window.matchMedia("(min-width: 768px)").matches ? [clientX, (x + (width/3))] : [clientY, (y + (height / 3))];
+            const [clientCoordinate, bookmarkCoordinate] = window.matchMedia("(min-width: 768px)").matches ? [clientX, (x + (width/4))] : [clientY, (y + (height / 4))];
 
             //Set new flex-order if client coordinate is before the current bookmark.
             if (clientCoordinate < bookmarkCoordinate) {
